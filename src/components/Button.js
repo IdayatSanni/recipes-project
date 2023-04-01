@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
 
-const Button = () => {
+const Button = (props) => {
   return (
-    <Link to="/subscribe">
-      <button className="btn btn-danger">Click To Get More Recipes</button>;
-    </Link>
+    <div className="text-center my-4">
+      <Link to="/subscribe">
+        <button className="btn btn-danger">{props.message}</button>
+      </Link>
+    </div>
   );
 };
 

@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Recipes />
-      <Button />
+      <Button message="Click To Get More Recipes" />
     </div>
   );
 }
