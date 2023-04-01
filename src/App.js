@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Recipes />
-      <Button message="Click To Get More Recipes" />
+      <Button message="Subscribe For More Recipes" />
     </div>
   );
 }

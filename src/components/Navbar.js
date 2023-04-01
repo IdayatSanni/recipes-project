@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="nav-container">
         <img
           src="../images/icon-cooking.jpg"
-          className="nav--logo"
+          className="nav--logo ms-2"
           alt="logo"
         />
         <h3 className="nav-name">Simple Recipes</h3>

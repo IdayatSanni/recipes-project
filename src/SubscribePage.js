@@ -10,14 +10,14 @@ function SubscribePage() {
           <img src="../images/recipe.jpg" className="food-img" alt="logo" />
 
           <div className="">
-            <h1>Need Daily Recipes Delivered To You?</h1>
+            <h1 className="mt-4">Need Daily Recipes Delivered To You?</h1>
             <div>
-              <label for="exampleFormControlInput1" class="form-label">
+              <label for="exampleFormControlInput1" className="form-label mt-3">
                 Email address
               </label>
               <input
                 type="email"
-                class="form-control"
+                className="form-control mt-2"
                 id="exampleFormControlInput1"
                 placeholder="name@example.com"
               ></input>
