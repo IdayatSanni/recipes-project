@@ -5,6 +5,9 @@
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
 }
+body{
+  background: linear-gradient(rgb(253, 253, 243), rgb(241, 222, 203), rgb(212, 194, 161));
+}
 
 /* ----------------------Navbar----------------------*/
 
@@ -14,12 +17,15 @@ nav {
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
   justify-content: space-between;
   align-items: center;
+  background-color: rgb(248, 248, 244);
+
 }
 
 .nav--logo {
   width: 55px;
     height: 50px;
     margin-bottom: 23px;
+
 }
 
 .nav-name {
@@ -51,8 +57,46 @@ nav {
   width: 80%;
   border-radius: 20px;
   padding: 10px;
-  box-shadow: 2px 12px 41px #e2d9ec;
+  box-shadow: 2px 12px 41px rgba(92, 88, 88, 0.1);
   overflow: auto;
+}
+
+*:hover > .recipe-card:not(:hover) {
+  filter: blur(3px);
+}
+
+/* IDs */
+/* #soup-card, #waffel-card, #wings-card {
+  height: auto;
+  display: flex;
+  width: auto;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 2px 13px 41px #e2d9ec;
+  overflow: auto;
+}  */
+/* trying to do the hover effect through CSS */
+
+/* .card-text:hover, .text-bottom:hover {
+  color: transparent;
+  text-shadow: 0 0 3px #73746f;
+ } */
+
+
+/* #waffel-pic, #soup-pic, #wings-pic {
+  height: 200px;
+  display: flex;
+  width: 60%;
+  padding: 20px; 
+   padding: 20px;
+} */
+
+.recipe-card:hover {
+  transform: scale(1.5);
+  margin-top: 30px;
+  height: 50%;
+  width: 60%;
+  background: linear-gradient(rgb(247, 247, 241), rgb(240, 220, 164));
 }
 
 ::-webkit-scrollbar {
