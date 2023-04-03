@@ -93,9 +93,9 @@ nav {
 } */
 
 .recipe-card:hover {
-  transform: scale(1.5);
+  transform: scale(1.1);
   margin-top: 30px;
-  height: 70%;
+  height: 50%;
   width: 60%;
   background: linear-gradient(rgb(247, 247, 241), rgb(240, 220, 164));
 }
