@@ -12,7 +12,7 @@ const Footer = () => {
     </ul>
 </div>
 <div class="copyright">
-    <a href="#">© Copyright 2020</a>
+              <a href="#">© Copyright 2023</a>
 </div>
 
 </footer>
