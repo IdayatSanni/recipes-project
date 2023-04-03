@@ -1,7 +1,14 @@
 import Navbar from "./components/Navbar";
-import Button from "./components/Button";
+// import Button from "./components/Button";
+import { useState } from "react";
 
 function SubscribePage() {
+  const [subscribed, setSubscribed] = useState(false);
+
+  const handleClick = () => {
+    setSubscribed(true);
+  };
+
   return (
     <div>
       <Navbar />
@@ -22,7 +29,13 @@ function SubscribePage() {
                 placeholder="name@example.com"
               ></input>
             </div>
-            <Button message="Get It Delivered" />
+            {!subscribed && (
+              <button onClick={handleClick} className="btn btn-danger mt-4">
+                Get It Delivered
+              </button>
+            )}
+
+            {subscribed && <p>Check Your Inbox</p>}
           </div>
         </div>
       </div>
