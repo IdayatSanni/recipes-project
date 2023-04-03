@@ -30,12 +30,12 @@ function SubscribePage() {
               ></input>
             </div>
             {!subscribed && (
-              <button onClick={handleClick} className="btn btn-danger mt-4">
+              <button onClick={handleClick} className="btn btn-danger my-5">
                 Get It Delivered
               </button>
             )}
 
-            {subscribed && <p>Check Your Inbox</p>}
+            {subscribed && <p className="clicked-text">Check Your Inbox</p>}
           </div>
         </div>
       </div>

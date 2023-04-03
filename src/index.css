@@ -139,6 +139,12 @@ a {
   margin-top: 100px;
 }
 
+.clicked-text {
+  text-align: center;
+  margin: 50px;
+  font-size: 40px;
+  color: brown;
+}
 #align-left {
   display: flex;
 
