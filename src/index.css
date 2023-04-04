@@ -5,9 +5,7 @@
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
 }
-body{
-  background: linear-gradient(rgb(253, 253, 243), rgb(241, 222, 203), rgb(212, 194, 161));
-}
+
 
 /* ----------------------Navbar----------------------*/
 
@@ -74,14 +72,16 @@ nav {
   width: 100%;
   background: #ECD5E3;
 }
+#btn:hover {
+background-color: #f7648d;
+}
 
 /* responsive */
  @media (max-width: 900px){ 
    .recipe-card {
-    height: 30%;
     width: 100%;
   }
-}
+ }
 
 
 ::-webkit-scrollbar {
@@ -127,6 +127,7 @@ a {
   margin: 50px;
   font-size: 40px;
   color: brown;
+  font-family: italic;
 }
 #align-left {
   display: flex;
