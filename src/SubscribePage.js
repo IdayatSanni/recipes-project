@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 // import Button from "./components/Button";
 import { useState } from "react";
@@ -17,7 +18,7 @@ function SubscribePage() {
           <img src="../images/recipe.jpg" className="food-img" alt="logo" />
 
           <div className="">
-            <h1 className="mt-4">Need Daily Recipes Delivered To You?</h1>
+            <h1 className="mt-4">Want weekly recipes to your inbox?</h1>
             <div>
               <label for="exampleFormControlInput1" className="form-label mt-3">
                 Email address
@@ -30,15 +31,16 @@ function SubscribePage() {
               ></input>
             </div>
             {!subscribed && (
-              <button onClick={handleClick} className="btn btn-danger mt-4">
-                Get It Delivered
+              <button onClick={handleClick} id="btn" className="btn btn-danger my-5">
+                Subscribe Now!
               </button>
             )}
 
-            {subscribed && <p>Check Your Inbox</p>}
+            {subscribed && <p className="clicked-text">Check Your Inbox!</p>}
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
