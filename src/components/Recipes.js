@@ -9,7 +9,7 @@ const Recipes = () => {
           alt="waffles"
         />
         <div className="card-text">
-          <h3>Wake up to smell of waffles</h3>
+          <h3>Wake up to the smell of waffles</h3>
           <p>
             The gorgeous scent of vanilla infused waffles. Now that's the
             perfect start to the weekend
